@@ -27,8 +27,6 @@ export default function Home() {
       </h1>
       <ParticlesBg color="#003366" type="cobweb" bg={true} />
       <ParticlesBg color="#003366" type="cobweb" bg={true} />
-      <ParticlesBg color="#003366" type="cobweb" bg={true} />
-      <ParticlesBg color="#003366" type="cobweb" bg={true} />
     </div>
   );
 }

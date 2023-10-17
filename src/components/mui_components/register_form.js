@@ -127,8 +127,6 @@ export default function SignUp() {
       </Container>
       <Toaster />
       <ParticlesBg color="#003366" type="cobweb" bg={true} />
-      <ParticlesBg color="#003366" type="cobweb" bg={true} />
-      <ParticlesBg color="#003366" type="cobweb" bg={true} />
     </ThemeProvider>
   );
 }

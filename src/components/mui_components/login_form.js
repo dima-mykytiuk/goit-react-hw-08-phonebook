@@ -110,8 +110,6 @@ export default function SignIn() {
       </Container>
       <Toaster />
       <ParticlesBg color="#003366" type="cobweb" bg={true} />
-      <ParticlesBg color="#003366" type="cobweb" bg={true} />
-      <ParticlesBg color="#003366" type="cobweb" bg={true} />
     </ThemeProvider>
   );
 }
