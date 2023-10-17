@@ -2,7 +2,7 @@ import * as React from 'react';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
-import { Button, CardActionArea, CardActions } from '@mui/material';
+import { Button, CardActionArea } from '@mui/material';
 import { useDispatch, useSelector } from "react-redux";
 import { selectVisibleContactItems } from "../../redux/contacts/selectors";
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';

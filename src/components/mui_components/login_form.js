@@ -10,7 +10,7 @@ import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import {logIn, register} from "../../redux/auth/operations";
+import {logIn} from "../../redux/auth/operations";
 import {useDispatch} from "react-redux";
 import {NavLink} from "react-router-dom";
 import toast, {Toaster} from "react-hot-toast";

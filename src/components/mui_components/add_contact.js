@@ -16,7 +16,6 @@ const defaultTheme = createTheme();
 
 export default function AddContact() {
   const dispatch = useDispatch();
-  const contacts = useSelector(selectContacts);
   const handleSubmit = (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
