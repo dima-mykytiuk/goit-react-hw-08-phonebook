@@ -7,8 +7,7 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import {addContact} from "../../redux/contacts/operations";
-import {useDispatch, useSelector} from "react-redux";
-import {selectContacts} from "../../redux/contacts/selectors";
+import {useDispatch} from "react-redux";
 import toast from "react-hot-toast";
 import ParticlesBg from "particles-bg";
 
